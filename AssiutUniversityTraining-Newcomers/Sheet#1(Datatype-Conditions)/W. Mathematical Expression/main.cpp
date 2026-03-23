@@ -2,49 +2,49 @@
 
 int main()
 {
- int a{}, b{};
- long long c{};
- char s{}, q{};
- std::cin >> a >> s >> b >> q >> c;
+  int a{}, b{};
+  long long c{};
+  char s{}, q{};
+  std::cin >> a >> s >> b >> q >> c;
 
- switch(s)
- {
-   case '+':
+  switch(s)
+  {
+    case '+':
 
-     if((a + b) == c)
-       std::cout << "Yes" << '\n';
-     else
-       std::cout << a + b << '\n';
+      if((a + b) == c)
+        std::cout << "Yes" << '\n';
+      else
+        std::cout << a + b << '\n';
 
-     break;
+      break;
 
-   case '-':
+    case '-':
 
-     if((a - b) == c)
-       std::cout << "Yes" << '\n';
-     else
-       std::cout << a - b << '\n';
+      if((a - b) == c)
+        std::cout << "Yes" << '\n';
+      else
+        std::cout << a - b << '\n';
 
-     break;
+      break;
 
-   case '*':
+    case '*':
 
-     if((a * b) == c)
-       std::cout << "Yes" << '\n';
-     else
-       std::cout << a * b << '\n';
+      if((a * b) == c)
+        std::cout << "Yes" << '\n';
+      else
+        std::cout << a * b << '\n';
 
-     break;
+      break;
 
-   case '/':
+    case '/':
 
-     if((a / b) == c)
-       std::cout << "Yes" << '\n';
-     else
-       std::cout << a / b << '\n';
+      if((a / b) == c)
+        std::cout << "Yes" << '\n';
+      else
+        std::cout << a / b << '\n';
 
-     break;
- }
+      break;
+  }
 
   return 0;
 }
